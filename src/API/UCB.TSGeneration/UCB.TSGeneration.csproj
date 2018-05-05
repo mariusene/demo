@@ -7,8 +7,8 @@
     <ProjectGuid>{A6D44237-565C-4407-A6B8-D127B12C2B13}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UCB.JapanCimzia.TSGeneration</RootNamespace>
-    <AssemblyName>UCB.JapanCimzia.TSGeneration</AssemblyName>
+    <RootNamespace>UCB.TSGeneration</RootNamespace>
+    <AssemblyName>UCB.TSGeneration</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

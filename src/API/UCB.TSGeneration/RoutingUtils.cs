@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Web.Http;
 #endif
 
-namespace UCB.JapanCimzia.TSGeneration
+namespace UCB.TSGeneration
 {
     public class RoutingUtils
     {

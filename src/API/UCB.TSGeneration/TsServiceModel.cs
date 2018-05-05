@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace UCB.JapanCimzia.TSGeneration
+namespace UCB.TSGeneration
 {
     public class TsServiceModel
     {

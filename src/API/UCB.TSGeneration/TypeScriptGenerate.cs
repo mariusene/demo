@@ -10,7 +10,7 @@ using System.Web.Http;
 using TypeLite;
 using UCB.JapanCimzia.API.Messages;
 
-namespace UCB.JapanCimzia.TSGeneration
+namespace UCB.TSGeneration
 {
     public class TypeScriptGenerate : Task
     {

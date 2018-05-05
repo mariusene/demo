@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCB.JapanCimzia.API", "UCB.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCB.JapanCimzia.API.Tests", "UCB.JapanCimzia.API.Tests\UCB.JapanCimzia.API.Tests.csproj", "{C74B055C-0913-447D-A4B5-C9251EDC2287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCB.JapanCimzia.TSGeneration", "UCB.JapanCimzia.TSGeneration\UCB.JapanCimzia.TSGeneration.csproj", "{A6D44237-565C-4407-A6B8-D127B12C2B13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCB.TSGeneration", "UCB.TSGeneration\UCB.TSGeneration.csproj", "{A6D44237-565C-4407-A6B8-D127B12C2B13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

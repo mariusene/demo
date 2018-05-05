@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace UCB.JapanCimzia.TSGeneration
+namespace UCB.TSGeneration
 {
     public class RouteParamInfo
     {

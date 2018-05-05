@@ -12,7 +12,7 @@ using HandlebarsDotNet;
 using TypeLite;
 using TypeLite.TsModels;
 
-namespace UCB.JapanCimzia.TSGeneration
+namespace UCB.TSGeneration
 {
     public class TsServiceGenerator
     {

@@ -1,7 +1,7 @@
 ﻿using System.Net.Http;
 using System.Reflection;
 
-namespace UCB.JapanCimzia.TSGeneration
+namespace UCB.TSGeneration
 {
     public class RouteInfo
     {
