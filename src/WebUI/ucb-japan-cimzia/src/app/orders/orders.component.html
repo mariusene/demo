@@ -1,0 +1,32 @@
+<mat-card>
+  orders works!
+
+<mat-table #table [dataSource]="dataSource">
+
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef> No. </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.id}} </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="merchand">
+    <mat-header-cell *matHeaderCellDef> Merchand </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.merchand}} </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="customer">
+    <mat-header-cell *matHeaderCellDef> Customer </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.customer.firstName}} {{element.customer.lastName}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+
+
+
+  <button mat-raised-button color="primary" (click)="addOrder()">Add</button>
+  <button mat-raised-button color="primary" (click)="updateOrder()">Update</button>
+  <button mat-raised-button color="primary" (click)="deleteOrder(10)">Delete</button>
+
+</mat-card>
+
